@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "builds": [
+    {
+      "src": "server/index.ts",
+      "use": "@vercel/node"
+    }
+  ],
+    "buildCommand": "tsc --noEmit --skipLibCheck || true",
+
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "server/index.ts"
+    }
+  ]
+}

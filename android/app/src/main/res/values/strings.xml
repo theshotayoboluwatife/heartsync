@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">TrustMatch</string>
+    <string name="title_activity_main">TrustMatch</string>
+    <string name="package_name">com.trustmatch.app</string>
+    <string name="custom_url_scheme">com.trustmatch.app</string>
+</resources>
