@@ -1,11 +1,11 @@
 {
   "compilerOptions": {
+    "skipLibCheck": true,
+    "noEmit": false,
+    "strict": false,
     "incremental": true,
     "tsBuildInfoFile": "./node_modules/typescript/tsbuildinfo",
-    "noEmitOnError": false,
-    "noEmit": true,
-    "strict": false,
-    "skipLibCheck": true,
+    "noEmitOnError": false, 
     "allowJs": true,
     "esModuleInterop": true,
     "module": "ESNext",
