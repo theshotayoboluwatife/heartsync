@@ -2,16 +2,15 @@
   "version": 2,
   "builds": [
     {
-      "src": "server/index.ts",
+      "src": "dist/index.js",
       "use": "@vercel/node"
     }
   ],
-    "buildCommand": "tsc --noEmit --skipLibCheck || true",
-
+  "buildCommand": "npm run build",
   "routes": [
     {
       "src": "/(.*)",
-      "dest": "server/index.ts"
+      "dest": "dist/index.js"
     }
   ]
 }

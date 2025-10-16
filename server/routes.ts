@@ -13,8 +13,7 @@ import Stripe from "stripe";
 import express from "express";
 import path from "path";
 import { notificationService } from "./notification_service";
-import { supabaseAuth } from "./supabaseAuth";
-import { supabaseAdmin } from "./db"; 
+import { supabaseAdmin } from "./db";
 
 
 if (!process.env.STRIPE_SECRET_KEY) {
